@@ -33,7 +33,9 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    message=TextSendMessage(text='Hello')
+    get_message = event.message.text
+    message=TextSendMessage(text='Hello')    
+    
      
     if event.message.text == "訂餐":
         message = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")

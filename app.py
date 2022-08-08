@@ -39,6 +39,7 @@ def handle_message(event):
 
     # Send To Line
     reply = TextSendMessage(text=f"{get_message}")
+    line_bot_api.reply_message(event.reply_token, reply)
   
     if event.message.text == "訂餐":
         reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")
@@ -50,5 +51,3 @@ def handle_message(event):
         longitude= 121.5325171
     )
     line_bot_api.reply_message(event.reply_token, message)
-    line_bot_api.reply_message(event.reply_token, reply)
-

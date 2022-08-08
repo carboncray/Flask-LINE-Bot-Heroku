@@ -44,10 +44,11 @@ def handle_message(event):
         reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")
     if evnet.message.text == "學院":
         message = LocationSendMessage(
-        title: "台北市職能發展學院",
-        address: "台北市士林區士東路301號",
-        latitude: 25.1147168,
-        longitude: 121.5325171
-        )line_bot_api.reply_message(event.reply_token, message)
+        title= "台北市職能發展學院",
+        address= "台北市士林區士東路301號",
+        latitude= 25.1147168,
+        longitude= 121.5325171
+    )
+    line_bot_api.reply_message(event.reply_token, message)
     line_bot_api.reply_message(event.reply_token, reply)
 

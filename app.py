@@ -39,14 +39,7 @@ def handle_message(event):
 
     # Send To Line
     reply = TextSendMessage(text=f"{get_message}")
-    if event.message.text == "學院":
-       location_message = LocationSendMessage(
-            title='台北市職能發展學院',
-            address='台北市士林區士東路301號',
-            latitude=25.1137887,
-            longitude=121.5492439
-            )
-        line_bot_api.reply_message(event.reply_token, location_message)    
+  
     if event.message.text == "訂餐":
         reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")
     line_bot_api.reply_message(event.reply_token, reply)

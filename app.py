@@ -39,7 +39,7 @@ def handle_message(event):
      
     if event.message.text == "訂餐":
         message = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0") 
-    elif:
+    elif 
         evnet.message.text == "學院":
         message = LocationSendMessage(
         title= "台北市職能發展學院",
@@ -47,5 +47,5 @@ def handle_message(event):
         latitude= 25.1147168,
         longitude= 121.5325171
         )
-    else:   
+    else:
         line_bot_api.reply_message(event.reply_token, message)

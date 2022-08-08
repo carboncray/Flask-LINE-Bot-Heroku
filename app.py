@@ -37,5 +37,5 @@ def handle_message(event):
     reply = TextSendMessage(text=f"{get_message}")   
     
      
-    if event.message.text == "貼圖": reply = StickerSendMessage(package_id='1',sticker_id='1')
+    if event.message.text == "學院": reply = LocationSendMessage(title='台北市職能發展學院',address='台北市士林區士東路301號',latitude=25.1147168,longitude=121.5325171)
     line_bot_api.reply_message(event.reply_token, reply)

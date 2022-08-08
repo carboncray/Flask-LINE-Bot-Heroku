@@ -44,7 +44,6 @@ def handle_message(event):
         reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")
     if evnet.message.text == "學院":
         message = LocationSendMessage(
-        "type": "location",
         "title": "台北市職能發展學院",
         "address": "台北市士林區士東路301號",
         "latitude": 25.1147168,

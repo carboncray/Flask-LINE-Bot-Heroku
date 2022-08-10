@@ -169,6 +169,16 @@ def handle_message(event):
           "uri": "https://www.foodpanda.com.tw/restaurant/pi6f/feng-cheng-shao-la-yue-cai-tai-bei-tian-mu-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action"
         }
       },
+        {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "來去訂餐",
+          "uri": "https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0"
+        }
+      }, 
       {
         "type": "box",
         "layout": "vertical",

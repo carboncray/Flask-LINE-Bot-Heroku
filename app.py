@@ -69,37 +69,12 @@ def handle_message(event):
         "margin": "md",
         "contents": [
           {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
             "type": "text",
             "size": "sm",
             "color": "#999999",
             "margin": "md",
             "flex": 0,
-            "text": "N/A"
+            "text": "粵菜"
           }
         ]
       },
@@ -168,18 +143,8 @@ def handle_message(event):
         "height": "sm",
         "action": {
           "type": "uri",
-          "label": "CALL",
-          "uri": "https://linecorp.com"
-        }
-      },
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "uri",
-          "label": "WEBSITE",
-          "uri": "https://linecorp.com"
+          "label": "foodpanda",
+          "uri": "https://www.foodpanda.com.tw/restaurant/pi6f/feng-cheng-shao-la-yue-cai-tai-bei-tian-mu-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action"
         }
       },
       {

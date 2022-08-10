@@ -127,6 +127,28 @@ def handle_message(event):
                 "flex": 5
               }
             ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "TEL",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "(02)2872-7500",
+                "wrap": True,  
+                "color": "#666666",
+                "flex": 5,
+                "size": "sm"
+              }
+            ],
+            "spacing": "sm"
           }
         ]
       }

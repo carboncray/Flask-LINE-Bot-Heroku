@@ -1,5 +1,4 @@
 import os
-import time
 from datetime import datetime
 
 from flask import Flask, abort, request
@@ -9,19 +8,6 @@ from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import *
 
-import threading
-import requests
-def wake_up_heroku():
-    while 1==1:
-        url = 'https://linbotv2.herokuapp.com/' + 'heroku_wake_up'
-        res = requests.get(url)
-        if res.status_code==200:
-            print('喚醒heroku成功')
-        else:
-            print('喚醒失敗')
-        time.sleep(1*60)
-
-threading.Thread(target=wake_up_heroku).start()
 
 app = Flask(__name__)
 

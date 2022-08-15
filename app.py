@@ -249,7 +249,7 @@ def handle_message(event):
               {
                 "type": "text",
                 "text": "台北市士林區福華路145號1樓",
-                "wrap": true,
+                "wrap": True,
                 "color": "#666666",
                 "size": "sm",
                 "flex": 5
@@ -271,7 +271,7 @@ def handle_message(event):
               {
                 "type": "text",
                 "text": "11:00 - 13:30, 16:30 - 19:30(六日公休)",
-                "wrap": true,
+                "wrap": True,
                 "color": "#666666",
                 "size": "sm",
                 "flex": 5
@@ -293,7 +293,8 @@ def handle_message(event):
                 "type": "text",
                 "text": "(02)2838-3009",
                 "flex": 5,
-                "wrap": true,
+                "wrap": True,
+                "color": "#666666",  
                 "size": "sm"
               }
             ]

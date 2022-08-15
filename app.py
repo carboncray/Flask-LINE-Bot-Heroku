@@ -18,7 +18,7 @@ def wake_up_heroku():
             print('喚醒heroku成功')
         else:
             print('喚醒失敗')
-        time.sleep(28*60)
+        time.sleep(1*60)
 
 threading.Thread(target=wake_up_heroku).start()
 

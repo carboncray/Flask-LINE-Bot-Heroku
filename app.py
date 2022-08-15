@@ -200,7 +200,7 @@ def handle_message(event):
     "aspectMode": "cover",
     "action": {
       "type": "uri",
-      "uri": "https://www.facebook.com/LUNGSHIHTAN"
+      "uri": "https://www.instagram.com/lungshihtan/"
     }
   },
   "body": {

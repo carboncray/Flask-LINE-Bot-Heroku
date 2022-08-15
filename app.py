@@ -45,7 +45,7 @@ def handle_message(event):
   "type": "bubble",
   "hero": {
     "type": "image",
-    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "url": "https://nash.tw/webp/wp-content/uploads/S__100917250_%E7%BB%93%E6%9E%9C.jpg.webp",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover",

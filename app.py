@@ -51,7 +51,7 @@ def handle_message(event):
     "aspectMode": "cover",
     "action": {
       "type": "uri",
-      "uri": "http://linecorp.com/"
+      "uri": "https://zh-tw.facebook.com/spring73512/"
     }
   },
   "body": {

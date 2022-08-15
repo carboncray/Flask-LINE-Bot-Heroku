@@ -9,6 +9,7 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import *
 
 import threading
+import requests
 def wake_up_heroku():
     while 1==1:
         url = 'https://linbotv2.herokuapp.com/' + 'heroku_wake_up'

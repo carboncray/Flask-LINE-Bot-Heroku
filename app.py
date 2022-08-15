@@ -11,7 +11,7 @@ from linebot.models import *
 import threading
 def wake_up_heroku():
     while 1==1:
-        url = '你的herokuapp網址' + 'heroku_wake_up'
+        url = 'https://linbotv2.herokuapp.com/' + 'heroku_wake_up'
         res = requests.get(url)
         if res.status_code==200:
             print('喚醒heroku成功')

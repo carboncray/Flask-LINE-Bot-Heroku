@@ -200,7 +200,7 @@ def handle_message(event):
     "aspectMode": "cover",
     "action": {
       "type": "uri",
-      "uri": "http://linecorp.com/"
+      "uri": "https://www.facebook.com/LUNGSHIHTAN"
     }
   },
   "body": {

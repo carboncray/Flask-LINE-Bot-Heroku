@@ -39,7 +39,7 @@ def handle_message(event):
     
      
     if event.message.text == "學院": reply = LocationSendMessage(title='台北市職能發展學院',address='台北市士林區士東路301號',latitude=25.1147168,longitude=121.5325171)
-    if event.message.text == "訂餐": reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0")
+    if event.message.text == "訂餐": reply = TextSendMessage(text="https://docs.google.com/spreadsheets/d/1tZUHTwKpXWIzQ1qbAi0SYfypfGnpULZti3uvomdTlvU/edit#gid=0")
     if event.message.text == "貼圖": reply = StickerSendMessage(package_id='11538',sticker_id='51626494')
     if event.message.text == "鳳城": reply = FlexSendMessage(alt_text='鳳城燒臘天母店',contents={
   "type": "bubble",
@@ -177,7 +177,7 @@ def handle_message(event):
         "action": {
           "type": "uri",
           "label": "來去訂餐",
-          "uri": "https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0"
+          "uri": "https://docs.google.com/spreadsheets/d/1tZUHTwKpXWIzQ1qbAi0SYfypfGnpULZti3uvomdTlvU/edit#gid=0"
         }
       }, 
       {
@@ -325,7 +325,7 @@ def handle_message(event):
         "action": {
           "type": "uri",
           "label": "來去訂餐",
-          "uri": "https://docs.google.com/spreadsheets/d/1kzhcIPBUlz2_U34-KQzhPWio4IQC5HHwwXPMMdzIe30/edit#gid=0"
+          "uri": "https://docs.google.com/spreadsheets/d/1tZUHTwKpXWIzQ1qbAi0SYfypfGnpULZti3uvomdTlvU/edit#gid=0"
         }
       },
       {

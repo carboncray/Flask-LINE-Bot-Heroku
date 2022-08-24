@@ -45,7 +45,7 @@ def handle_message(event):
   "type": "bubble",
   "hero": {
     "type": "image",
-    "url": "https://nash.tw/webp/wp-content/uploads/S__100917250_%E7%BB%93%E6%9E%9C.jpg.webp",
+    "url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.18169-9/19554156_1401102563270671_3293336136946307640_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=qUoUS--zcLwAX81qUgn&_nc_ht=scontent-tpe1-1.xx&oh=00_AT-lY8Dc9o1JGokXXl58OR0jFTClPtgSphkKcc-EIveA2g&oe=632B79AF",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover",
